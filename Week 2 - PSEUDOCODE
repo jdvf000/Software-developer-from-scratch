@@ -1,0 +1,34 @@
+WEEK 2
+PSEUDOCODE
+
+** Logic Problem.
+The teacher asks his 5 students if they studied mathematics yesterday.
+
+Alice: "Nobody studied math yesterday".
+Bob: "1 person studied math yesterday".
+Charlie: "2 people studied math yesterday".
+Dan: "3 people studied mathematics yesterday".
+Eva: "4 people studied mathematics yesterday".
+
+The teacher knows that only those who studied would be telling the truth and those who didn't would be lying. Who is telling the truth?
+
+Without having unlogic staments
+1 person says the truth 
+BOB: 1 person studied because the other statements doesn't match the conditions.
+
+
+** Cereal vrs Milk
+Start:
+1- Gather the ingredients.
+Bowl, Milk, Cereal, Spoon, Sugar.
+2- Take ready the bowl.
+3- Add the milk.
+4.1- With sugar
+4.2 - No sugar.
+5- Select eather  #4.1 or #4.2 
+Continue. 
+6- Add cereal.
+5- Add the spoon.
+6- Ready to eat.
+Fin.
+
