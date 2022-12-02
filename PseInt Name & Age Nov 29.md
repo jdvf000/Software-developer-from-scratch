@@ -1,5 +1,5 @@
 Print Name.
-Pseint code: 
+Pseint code.
 
 Algoritmo myName
 Imprimir 'David Vasquez'
@@ -7,11 +7,9 @@ FinalAlgoritmo
 
 [My name](https://user-images.githubusercontent.com/105883148/204686606-d0ca9578-f443-4c41-a2ae-d8cfde26c2c4.png)
 
-
-Print Name & Age.
-Print name & Age
+Print name & Age.
 Algoritmo myNameAndAge
-Impirmir 'David vasquez'
+Impirmir 'David Vasquez'
 Imprimir 40
 FinalAlgritmo
 
