@@ -5,7 +5,6 @@ Algoritmo myName
 Imprimir 'David Vasquez'
 FinalAlgoritmo
 
-[My name](https://user-images.githubusercontent.com/105883148/204686606-d0ca9578-f443-4c41-a2ae-d8cfde26c2c4.png)
 
 Print name & Age.
 Algoritmo myNameAndAge
@@ -13,4 +12,30 @@ Impirmir 'David Vasquez'
 Imprimir 40
 FinalAlgritmo
 
-![My name and Age psc](https://user-images.githubusercontent.com/105883148/204689976-2aae69bc-c8b6-4de6-baba-b6533e5bc2bd.png)
+
+* REGISTER A FORM    
+Algoritmo userForm
+	Imprimir '==== User From ====' 
+	Imprimir 'First name'
+	Leer firstName
+	
+	Imprimir 'Last Name'
+	Leer lastName
+	
+	Imprimir 'Age'
+	Leer age
+	
+	Imprimir 'Email address'
+	Leer emailAddress
+	
+	Imprimir 'Full address'
+	Leer fullAddress
+	
+	Imprimir '---- User Data ----'
+	Imprimir 'Full name: '+ firstName + ' ' + lastName
+	Imprimir 'Age: ' + age
+	Imprimir 'Email address: ' + emailAddress
+	Imprimir ' Full Address: ' + fullAddress
+	Imprimir '---------------'
+FinAlgoritmo
+
