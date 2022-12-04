@@ -146,3 +146,45 @@ F | F = F ✅
 ~(( 1 ) & ( 0 )) & T = F
 ~( 0 ) & T  = F
 1 & T = F ✅
+
+
+
+
+=======================================================
+=======================================================
+Identify Even & Odd numbers in algorithm
+
+IMPRIMIR PAR / IMPAR
+Algoritmo detectEvenOdd
+Imprimir 'Ingrese numero a verificar'
+Leer N
+
+Si N % 2 == 0 Entonces 
+Imprimir 'Numero :  ' + ConvetirATexto(N) +
+' es par '
+
+SiNo
+Imprimir 'Numero :  ' + ConvertirATexto(N) + 
+' es impar' 
+
+FinSi 
+FinAlgoritmo
+
+
+
+=======================================================
+=======================================================
+FUll Identify ODD & EVEN numbers in Algorithm code
+Algoritmo detectEvenOdd 
+	Imprimir 'Ingrese número a verificar'
+	Leer N
+	Si Nx % 2 == 0 Entonces
+		Imprimir 'Numero: ' + ConvertirATexto(x) + ' es par'
+	SiNo
+		Imprimir 'Numero: ' + ConvertirATexto(x) + ' es impar'
+	FinSi
+FinAlgoritmo
+
+
+
+
