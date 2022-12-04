@@ -12,8 +12,15 @@ TRUTH TABLES
 ‘⇒’ Bi condicional
 
 AND = &
+![image](https://user-images.githubusercontent.com/105883148/205499915-ad67f00d-81ca-4906-b4d8-3cdbd4a2b8fb.png)
+
 OR = |
-NOT = ~~f 
+![image](https://user-images.githubusercontent.com/105883148/205499929-06fb819a-e0dd-4a78-aa01-6c850256fa1c.png)
+
+
+NOT = ~~ f 
+![image](https://user-images.githubusercontent.com/105883148/205499956-3964dbe2-1993-485a-820d-87c3d9b592cc.png)
+
 
 
 ✅
