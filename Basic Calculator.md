@@ -1,7 +1,7 @@
 Algoritmo BasicCalculator
-	Imprimir 'Type a number1'
+	Imprimir 'Type first number1'
 	Leer number1
-	Imprimir 'Type a number2'
+	Imprimir 'Type second number2'
 	Leer number2
 	Imprimir 'Choose the operation +, -, *, /'
 	Leer symbol
