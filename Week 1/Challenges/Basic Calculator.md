@@ -22,6 +22,6 @@ Algoritmo BasicCalculator
 			Imprimir 'Outcome:' + '' ConvertirATexto(number1 / number2)
 			Imprimir 'DIVISION'
 		De Otro Modo 
-			Imprimir 'Error, please make sure select numbers only this is a basic caltulator'
+			Imprimir 'Error, please make sure select numbers only this is a basic calculator'
 	FinSegun
 FinAlgoritmo

@@ -1,4 +1,4 @@
-# Software-developer-from-scratch
+.# Software-developer-from-scratch
 
 
 =================================================================================
