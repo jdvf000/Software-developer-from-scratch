@@ -1,0 +1,7 @@
+Algoritmo myName
+	Imprimir 'Type your name'
+	Leer name
+	Imprimir 'Type your age'
+	Leer Age
+	Imprimir 'Data:' + name + ' ' age + ' ' 
+FinAlgoritmo
