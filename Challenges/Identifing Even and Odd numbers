@@ -1,0 +1,16 @@
+=======================================================
+   Identify Even & Odd numbers in algorithm
+=======================================================
+
+
+Algoritmo identifingEvenOdd
+	Imprimir 'Type the number to identify'
+	Leer N
+	
+	Si N % 2 == 0 Entonces
+		Imprimir 'Processing'
+		Imprimir 'Outcome:' + ConvertirATexto(N) + ' is even number'
+	SiNo
+		Imprimir 'Outcome:' + ConvertirATexto(N) + ' is odd number'
+	FinSi 
+FinAlgoritmo
