@@ -2,7 +2,6 @@
    Identify Even & Odd numbers in algorithm
 =======================================================
 
-
 Algoritmo identifingEvenOdd
 	Imprimir 'Type the number to identify'
 	Leer N
