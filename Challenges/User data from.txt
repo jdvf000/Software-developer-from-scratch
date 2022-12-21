@@ -1,0 +1,19 @@
+	Algoritmo userForm
+		Imprimir '===== Getting User Data Info ====='
+		Imprimir 'Please enter your First Name'
+		Leer firstName
+		Imprimir 'Please enter your Last Name'
+		Leer lastName
+		Imprimir 'Please type your Age'
+		Leer age
+		Imprimir 'Type your Email address'
+		Leer emailAddress
+		Imprimir 'Enter your Address'
+		Leer address
+		
+		Imprimir '===User data info==='
+		Imprimir 'Full name:' + firstName + ' ' + lastName
+		Imprimir 'Age: ' + age
+		Imprimir 'Email Address: ' +  EmailAddress
+		Imprimir 'Address: ' + Address
+FinAlgoritmo
