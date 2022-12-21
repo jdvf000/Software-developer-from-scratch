@@ -1,0 +1,30 @@
+====================================================================
+                             BOOLEANS
+====================================================================
+
+
+Algoritmo Booleans
+	a <- 5 == 3
+	// Comparando 5 es igual a 3 
+	// FALSO 5 es mayor que 3
+	
+	b <- 4 <> 3
+	// 4 es diferente de 3
+	// VERDADERO
+	
+	c <- 7 > 7
+	// 7 no es mayor que 7
+	// FALSO
+	
+	d <- 4 < 4
+	// 4 no es menor que 4
+	// FALSO
+	
+	e <- 100 <= 90
+	// 100 menor o igual que 90
+	// FALSO
+	
+	f <- 40 >= 40
+	// 40 mayor o igual que 40
+	// VERDADERO
+FinAlgoritmo
