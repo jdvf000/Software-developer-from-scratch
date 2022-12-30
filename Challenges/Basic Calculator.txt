@@ -8,20 +8,23 @@ Algoritmo BasicCalculator
 	Imprimir 'Processing' 
 	Segun symbol Hacer
 		'+':
-			Imprimir 'Outcome:' + '' + ConvertirATexto(number1 + number2)
 			Imprimir 'SUMA'
+			Imprimir 'Outcome:' + '' + ConvertirATexto(number1 + number2)
 			
 		'-':
-			Imprimir 'Outcome:' + '' + ConvertirATexto(number1 - number2)
 			Imprimir 'RESTA'
+			Imprimir 'Outcome:' + '' + ConvertirATexto(number1 - number2)
+			
 		'*' :
-			Imprimir 'Outcome:' + '' ConvertirATexto(number1 * number)
 			Imprimir 'MULTIPLICAION'
+			Imprimir 'Outcome:' + '' ConvertirATexto(number1 * number)
 			
 		'/' :
-			Imprimir 'Outcome:' + '' ConvertirATexto(number1 / number2)
 			Imprimir 'DIVISION'
-		De Otro Modo 
+			Imprimir 'Outcome:' + '' ConvertirATexto(number1 / number2)
+			
+			
+			De Otro Modo 
 			Imprimir 'Error, please make sure select numbers only this is a basic calculator'
 	FinSegun
 FinAlgoritmo
