@@ -1,3 +1,7 @@
+========================================
+ Algorithm Identifing a Special NUmber
+========================================
+
 Algoritmo specialNumber
 	Escribir 'Please enter a number'
 	Leer x
