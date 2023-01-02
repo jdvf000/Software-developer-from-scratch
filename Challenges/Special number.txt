@@ -1,0 +1,13 @@
+Algoritmo specialNumber
+	Escribir 'Please enter a number'
+	Leer x
+	Si x == 100  Entonces
+		Imprimir 'This is a special number'
+	SiNo 
+		Si (x < 1000) & (x % 10 == 0) Entonces
+			Imprimir 'This number is almost special'
+		SiNo
+			Imprimir 'This is just a regular number'
+		FinSi
+	FinSi
+FinAlgoritmo
