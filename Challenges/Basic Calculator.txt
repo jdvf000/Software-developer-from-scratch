@@ -1,7 +1,7 @@
 // Program will ask for 2 numbers.
 // Once the 2 numbers have been entered program should ask for the symbol to complete the operation.
-// Program will validate the symbols entered, if symbol entered is not valid, there must be an error message: 
-// Error message: 'Error, please make sure select numbers only this is a basic calculator' Finished the program.
+// Program will validate the symbol entered, if symbol entered is not valid, there must be an error message: 
+// Error message: 'Error, please make sure select valid symbols only this is a basic calculator'
 // If everything is ok program must show: Processing +  the numbers + the operation to complete + the outcome.
 
 
@@ -60,6 +60,6 @@ FinAlgoritmoAlgoritmo BasicCalculator
 			
 			
 			De Otro Modo 
-			Imprimir 'Error, please make sure select numbers only this is a basic calculator'
+			Imprimir 'Error, please make sure select valid symbols only this is a basic calculator'
 	FinSegun
 FinAlgoritmo
