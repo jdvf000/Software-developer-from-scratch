@@ -3,6 +3,11 @@
 ========================================
 
 Algoritmo specialNumber
+	// Guessing a special number.Special number is 100
+	// If number is 100 print "This is a special number".
+	// If number given is less than 1000 and mutiple of 10 and different from 100 it must show: "This number is almost special"
+	// If the conditions are not gathered show: "This is a regular number"
+	
 	Escribir 'Please enter a number'
 	Leer x
 	Si x == 100  Entonces
