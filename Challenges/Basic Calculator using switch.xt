@@ -1,0 +1,39 @@
+// Program will ask for 2 numbers.
+// Once the 2 numbers have been entered program should ask for the symbol to complete the operation.
+// Program will validate the symbol entered, if symbol entered is not valid, there must be an error message: 
+// Error message: 'Symbol not valid, a valid simbol must have selected +, -. *, /, closing program'
+// If everything is ok program must show: Processing +  the numbers + the operation to complete + the outcome.
+
+Algoritmo BasicCalculator2
+	Imprimir 'Type first number'
+	Leer number1
+	Imprimir 'Type second number'
+	Leer number2
+	
+	Imprimir 'Choose the symbol +, -, *, /'
+	Leer symbol
+	
+	Si symbol == '+' | symbol == '-' | symbol == '*'| symbol == '/' Entonces
+	Imprimir 'Processing:' + convertirATexto(number1) + ' ' + symbol ' ' + ConvertirATexto(number2)
+	Segun symbol Hacer
+		'+':
+			Imprimir 'PLUS'
+			Imprimir 'Outcome:' + '' + ConvertirATexto(number1 + number2)
+			
+		'-':
+			Imprimir 'MINUS'
+			Imprimir 'Outcome:' + '' + ConvertirATexto(number1 - number2)
+			
+		'*' :
+			Imprimir 'TIMES'
+			Imprimir 'Outcome:' + '' ConvertirATexto(number1 * number2)
+			
+		'/' :
+			Imprimir 'DIVIDED'
+			Imprimir 'Outcome:' + '' ConvertirATexto(number1 / number2)
+		FinSegun 
+	
+	SINo 
+	Imprimir 'Symbol not valid, a valid simbol must have selected +, -. *, /, closing program'
+	FinSi
+FinAlgoritmo
