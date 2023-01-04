@@ -1,0 +1,59 @@
+// Program shows the available options.
+// Option 1: Sum 2 numbers, Program shows the numbers entered + SUM message + processing message + outcome.
+// Option 2: Print the day of the week giving a number taking in consideration week starts on Monday = 1 to Sunday = 7.
+// Option 3: Print the length of a text typed.
+
+Algoritmo multiOptionsProgram
+	Imprimir '==== Multi Options program ==='
+	Imprimir 'This program runs a multiple options available showing them below'
+	Imprimir '#1 To do a SUM.'
+	Imprimir '#2 To print the day of the week giving a number from 1 - 7, week starts from Monday #1 to Sunday #7.'
+	Imprimir '#3 Print the length of a text given.'
+	Escribir 'Please select an option between 1 - 3'
+	Leer option
+	Segun option Hacer
+		1:
+			Imprimir 'Option #1 was selected = SUM, Please enter 2 numbers to do the operation'
+			Imprimir 'Type a number'
+			Leer x
+			Imprimir 'Type a number'
+			Leer y
+			Imprimir 'SUM'
+			Imprimir 'Processing: ' + ConvertirATexto(x) + ' ' + '+' ' ' + ConvertirATexto(y)
+			Imprimir 'Outcome:' + '' + ConvertirAtexto(x + y)
+			
+		2:
+			Imprimir 'Option #2 was selected = Choosing a day of the week'
+			Imprimir 'Enter a number from 1 - 7'
+			Leer number
+			Segun number Hacer
+				1:
+					Imprimir 'Monday'
+				2:
+					Imprimir 'Tuesday'
+				3:
+					Imprimir 'Wednesday'
+				4:
+					Imprimir 'Thursday'
+				5:
+					Imprimir 'Friday'
+				6:
+					Imprimir 'Saturday'
+				7:
+					Imprimir 'Sunday'
+					
+					De Otro Modo
+					Imprimir 'Wrong number chosen, remember a week has 7 days only, Closing the program'
+			FinSegun
+			
+		3:
+			Imprimir 'Option #3 was selected = The length of a text typed'
+			Imprimir 'Please enter the text'
+			Leer string
+			Imprimir 'Outcome: ' + ConvertirATexto(longitud(string))
+			
+		De Otro Modo:
+			Escribir 'Option chosen not available,Closing the program'
+	Fin Segun
+	
+FinAlgoritmo
