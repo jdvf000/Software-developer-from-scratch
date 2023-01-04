@@ -14,6 +14,6 @@
 		Imprimir '===User data info==='
 		Imprimir 'Full name:' + firstName + ' ' + lastName
 		Imprimir 'Age: ' + age
-		Imprimir 'Email Address: ' +  EmailAddress
-		Imprimir 'Address: ' + Address
+		Imprimir 'Email Address: ' +  emailAddress
+		Imprimir 'Address: ' + address
 FinAlgoritmo
