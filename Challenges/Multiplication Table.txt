@@ -1,0 +1,14 @@
+// Program will calculate the multiplication of tables for a number given.
+
+Algoritmo multiTableUsingWhile
+Imprimir '===== Multiplication Table ====='
+Definir x Como Entero
+Escribir 'Please enter any number to get the outcome of table from 1 to 10'
+Leer x
+y <- 1
+Imprimir 'Multiplication table of the number:' ' ' ConvertirATexto(x)
+Mientras y <= 10 Hacer
+	Imprimir x ' x ', y ' = ', x * y
+	y <- y + 1	
+FinMientras
+FinAlgoritmo
